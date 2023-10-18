@@ -131,13 +131,6 @@ p {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
-  border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
 }
 
 .btn:hover,
@@ -163,6 +156,10 @@ p {
 
 .section-one-caption {
   background: #ffffff;
+}
+
+.section-one-list-menu {
+  display: flex;
 }
 
 .section-one-list-heading {
@@ -196,6 +193,10 @@ p {
   color: #2e2f42;
 }
 
+.section-two-list-menu {
+  display: flex;
+}
+
 .section-two-list-item {
   background-color: #ffffff;
 }
@@ -227,6 +228,11 @@ p {
   line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.section-three-list-menu {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .section-three-list-heading {
